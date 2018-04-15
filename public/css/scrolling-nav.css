@@ -17,3 +17,7 @@ header {
 section {
   padding: 150px 0;
 }
+
+.navbar-nav.ml-auto li a { 
+  color: blue;
+}
