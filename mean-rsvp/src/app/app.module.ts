@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AuthService } from './auth/auth.service';
 import { CallbackComponent } from './pages/callback/callback.component';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CallbackComponent } from './pages/callback/callback.component';
     CallbackComponent
   ],
   imports: [
+    NgbModule.forRoot(),
     BrowserModule,
     AppRoutingModule
   ],
@@ -32,4 +34,7 @@ import { CallbackComponent } from './pages/callback/callback.component';
     AppComponent
   ]
 })
-export class AppModule { }
+
+export class AppModule {
+}
+
